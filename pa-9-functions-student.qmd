@@ -24,6 +24,7 @@ You will write several small functions, then use them to unscramble a message. M
 #| label: q1
 
 nums <- 3:12
+round(nums/ min(nums))
 
 ```
 
@@ -34,7 +35,7 @@ nums <- 3:12
 #| label: q2
 
 divide_and_round <- function(vec){
-
+round(vec / min(vec, na.rm = TRUE))
 }
 ```
 
